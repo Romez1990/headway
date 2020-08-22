@@ -8,6 +8,15 @@
     "test": "node scripts/test.js --env=jsdom",
     "watch": "npm-watch"
   },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src",
+        "public"
+      ],
+      "extensions": "js,html,css,json,svg"
+    }
+  },
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "autoprefixer": "^9.8.6",
